@@ -20,9 +20,6 @@
   line-height: 20px;
 }
 
-.card_centered {
-}
-
 .card__list-divider {
   border-bottom: 1px solid;
   flex-grow: 2;
