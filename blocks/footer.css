@@ -53,6 +53,7 @@
   margin: 0;
   align-items: center;
   color: #ffffff;
+  transition: color 0.3s ease-in-out;
 }
 
 .footer__social-link:hover {

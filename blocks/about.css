@@ -6,6 +6,7 @@
   justify-content: space-between;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 
 .about__title {
@@ -14,7 +15,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  z-index: 1;
+
   margin: 0;
 }
 .about__content {
@@ -25,7 +26,7 @@
   margin: 19px 0 0;
 }
 .about__paragraph {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -36,11 +37,15 @@
 .about__circle {
   width: 426px;
   height: 426px;
-  background-color: #2f80ed;
+  background-color: blue;
   border-radius: 50%;
   position: absolute;
   top: -121px;
   left: -91px;
+  z-index: -1;
+}
+
+.about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out infinite;
 }
 

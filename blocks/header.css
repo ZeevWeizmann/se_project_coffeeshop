@@ -1,7 +1,7 @@
 .header {
   padding: 30px 80px 40px;
   background-color: #ffffff;
-  background-image: url("/images/background_header.svg");
+  background-image: url("../images/background_header.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -12,6 +12,7 @@
   max-height: 800px;
   position: relative;
   box-sizing: border-box;
+  z-index: 1;
 }
 
 .header__image {
@@ -21,6 +22,7 @@
   top: 124px;
   right: 5px;
   bottom: 0;
+  z-index: -1;
 }
 
 .header__title {
@@ -58,7 +60,7 @@
   margin-top: auto;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   font-weight: 500;
   color: #838383;
